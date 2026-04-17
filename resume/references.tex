@@ -1,0 +1,31 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{R~E~F~E~R~E~N~C~E~S~~}
+
+\newcommand{\cvreference}[4]{%
+    \fontsize{10pt}{1em}
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{\faEnvelope~~#4\newline}%
+}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+{
+\color{black}
+\vspace{-2mm}
+\begin{multicols}{2}
+\cvreference{Dr. Geert Litjens}
+    {Assistant Professor, Diagnostic Image Analysis Group}
+    {Radboud University Medical Center, The Netherlands}
+    {~geert.litjens@radboudumc.nl}
+    
+\cvreference{Dr. Xavier Lladó}
+    {Professor, ViCOROB Institute}
+    {University of Girona, Spain}
+    {~xavier.llado@udg.edu}
+\end{multicols}
+}
