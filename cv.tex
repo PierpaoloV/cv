@@ -1,16 +1,5 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 %-------------------------------------------------------------------------------
@@ -18,7 +7,7 @@
 %-------------------------------------------------------------------------------
 \documentclass[11pt, a4paper]{awesome-cv}
 \usepackage{multicol}
-\geometry{left=1.2cm, top=.5cm, right=1.2cm, bottom=1.2cm, footskip=.5cm}
+\geometry{left=1.4cm, top=1.0cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 \fontdir[fonts/]
 
@@ -33,7 +22,7 @@
 %	PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \name{Pierpaolo}{Vendittelli}
-\position{Applied AI Researcher{\enskip\cdotp\enskip}ML Engineer}
+\position{Postdoctoral Researcher{\enskip\cdotp\enskip}AI for Digital Pathology}
 \mobile{(+39) 371 198 8078}
 \email{pierpaolo.vendittelli93@gmail.com}
 \github{PierpaoloV}
@@ -46,14 +35,22 @@
 
 \makecvheader[C]
 
+\makecvfooter
+  {\today}
+  {Pierpaolo Vendittelli~~~·~~~Curriculum Vitae}
+  {\thepage}
+
 %-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT — Applied / ML Engineer variant
-%	Section order: Experience → Skills → Projects & Publications → Education → Certifications
+%	FULL ACADEMIC CV
+%	Section order: Experience → Publications & Projects → Education → Honors → Presentations → Skills → Certifications
 %-------------------------------------------------------------------------------
-\input{resume/experience-1p.tex}
+\input{resume/experience.tex}
+\input{resume/projects.tex}
+\input{resume/education.tex}
+\input{cv/honors.tex}
+\input{cv/presentation.tex}
 \input{resume/skills}
-\input{resume/projects-applied.tex}
-\input{resume/education-1p.tex}
+\input{resume/certifications}
 
 %-------------------------------------------------------------------------------
 \end{document}
