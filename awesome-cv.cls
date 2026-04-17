@@ -197,7 +197,7 @@
 \newcommand*{\headersocialstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\color{black} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont \color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{awesome-red}\@sectioncolor #1}} % Main Section Title
+\newcommand*{\sectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{awesome}\@sectioncolor #1}} % Main Section Title
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont \textcolor{blacktext}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{blacktext}}
 
@@ -209,7 +209,7 @@
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{blacktext} #1}}          % Final Description Per Header
 
 % For elements of subentry
-\newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{awesome-red} #1}}
+\newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{awesome} #1}}
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{7pt}{1em}\bodyfont \color{blacktext} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{blacktext} #1}}
 \newcommand*{\subentrylocationstyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
@@ -687,7 +687,7 @@
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
-    \renewcommand{\labelitemi}{\textcolor{awesome-red}{\Large{\bullet}}}
+    \renewcommand{\labelitemi}{\textcolor{awesome}{\Large{\bullet}}}
 }{%
   \end{itemize}
   \end{justify}
