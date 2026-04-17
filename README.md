@@ -1,117 +1,64 @@
-<h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
-  </a>
-  <br />
-  Awesome CV
-</h1>
-
 <p align="center">
-  LaTeX template for your outstanding job application
+  <img src="profile.png" alt="Pierpaolo Vendittelli" width="160px" style="border-radius: 50%;" />
 </p>
 
-<div align="center">
-  <a href="https://www.paypal.me/posquit0">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
-  </a>
-  <a href="https://circleci.com/gh/posquit0/Awesome-CV">
-    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
-    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
-    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
-  </a>
-</div>
+<h1 align="center">Pierpaolo Vendittelli</h1>
 
-<br />
+<p align="center">
+  <em>Postdoctoral Researcher · AI for Digital Pathology · ML Engineer</em>
+</p>
 
-## What is Awesome CV?
+<p align="center">
+  <a href="resume-applied.pdf"><img src="https://img.shields.io/badge/Resume-Applied%20%2F%20Industry-00A388?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Applied Resume"/></a>
+  &nbsp;
+  <a href="resume-research.pdf"><img src="https://img.shields.io/badge/Resume-Research%20%2F%20R%26D-990033?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Research Resume"/></a>
+  &nbsp;
+  <a href="cv.pdf"><img src="https://img.shields.io/badge/Full%20Academic-CV-414141?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Full CV"/></a>
+</p>
 
-**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+<p align="center">
+  <a href="mailto:pierpaolo.vendittelli93@gmail.com"><img src="https://img.shields.io/badge/Email-pierpaolo.vendittelli93%40gmail.com-blue?style=flat-square&logo=gmail" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/pierpaolo-vendittelli"><img src="https://img.shields.io/badge/LinkedIn-pierpaolo--vendittelli-0077B5?style=flat-square&logo=linkedin" /></a>
+  &nbsp;
+  <a href="https://github.com/PierpaoloV"><img src="https://img.shields.io/badge/GitHub-PierpaoloV-181717?style=flat-square&logo=github" /></a>
+</p>
 
+---
 
-## Donate
+## About
 
-Please help keep this project alive! Donations are welcome and will go towards further development of this project.
+I am a Postdoctoral Researcher at the **Prinses Maxima Centre for Pediatric Oncology** (Utrecht, NL), working on deep-learning methods for digital histopathology applied to Wilms tumor. I hold a PhD from **Radboud University Medical Center** (expected June 2026), where I developed AI algorithms for pancreatic cancer pathology as part of the EU Horizon 2020 **PANCAIM** consortium.
 
-    PayPal: paypal.me/posquit0
-    BTC: 1Je3DxJVM2a9nTVPNo55SfQwpmxA6N2KKb
-    BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
-    ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
-    QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
+My work sits at the intersection of **computer vision**, **medical image analysis**, and **software engineering** — from designing whole-slide image pipelines and multiple-instance learning models, to building LLM-powered automation tools.
 
-*Thank you for your support!*
+I am currently open to **R&D**, **Applied Scientist**, and **ML Engineer** roles — preferably in Italy, remote EU, or US-remote.
 
-## Preview
+---
 
-#### Résumé
+## Documents
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+| Document | Audience | Format |
+|---|---|---|
+| [`resume-applied.pdf`](resume-applied.pdf) | Industry / ML Engineer roles | 1 page, engineering-focused |
+| [`resume-research.pdf`](resume-research.pdf) | Research / R&D / Applied Scientist roles | 2 pages, publications-first |
+| [`cv.pdf`](cv.pdf) | Academic / full record | 2 pages, includes honors and presentations |
 
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+---
 
-#### Cover Letter
+## Build
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
-
-| Without Sections | With Sections |
-|:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
-
-
-## Quick Start
-
-* [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
-* [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
-
-**_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
-
-
-## How to Use
-
-#### Requirements
-
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
-
-#### Usage
-
-At a command prompt, run
+Requires a full TeX Live distribution with XeLaTeX.
 
 ```bash
-$ xelatex {your-cv}.tex
+make all        # build all three documents
+make applied    # resume-applied.pdf only
+make research   # resume-research.pdf only
+make cv         # cv.pdf only
 ```
 
-This should result in the creation of ``{your-cv}.pdf``
+---
 
+## Stack
 
-## Credit
-
-[**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
-
-[**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
-
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
-
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
-
-
-## Contact
-
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
-
-If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
-
-Good luck!
-
-
-## See Also
-
-* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself.
+Built with [Awesome-CV](https://github.com/posquit0/Awesome-CV) — a clean LaTeX template using XeLaTeX, Roboto, and FontAwesome. Color theme: teal-green for the industry resume, dark-red for the research variants.
