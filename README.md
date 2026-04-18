@@ -22,6 +22,9 @@
   <a href="https://www.linkedin.com/in/pierpaolo-vendittelli"><img src="https://img.shields.io/badge/LinkedIn-pierpaolo--vendittelli-0077B5?style=flat-square&logo=linkedin" /></a>
   &nbsp;
   <a href="https://github.com/PierpaoloV"><img src="https://img.shields.io/badge/GitHub-PierpaoloV-181717?style=flat-square&logo=github" /></a>
+  &nbsp;
+  <a href="https://pierpaolov.github.io"><img src="https://img.shields.io/badge/Personal-Website-0077B5?style=flat-square&logo=github" /></a>
+
 </p>
 
 ---
