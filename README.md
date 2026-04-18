@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile.png" alt="Pierpaolo Vendittelli" width="160px" style="border-radius: 50%;" />
+  <img src="definitive_profile_picture_circle.png" alt="Pierpaolo Vendittelli" width="160px" style="border-radius: 50%;" />
 </p>
 
 <h1 align="center">Pierpaolo Vendittelli</h1>
