@@ -683,6 +683,7 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
+  \vspace{-1.5mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
