@@ -45,7 +45,7 @@ I am currently open to **R&D**, **Applied Scientist**, and **ML Engineer** roles
 |---|---|---|
 | [`resume-applied.pdf`](resume-applied.pdf) | Industry / ML Engineer roles | 1 page, engineering-focused |
 | [`resume-research.pdf`](resume-research.pdf) | Research / R&D / Applied Scientist roles | 2 pages, publications-first |
-| [`cv.pdf`](cv.pdf) | Academic / full record | 2 pages, includes honors and presentations |
+| [`cv.pdf`](cv.pdf) | Academic / full record | 3 pages, includes honors and presentations |
 
 ---
 
@@ -64,4 +64,4 @@ make cv         # cv.pdf only
 
 ## Stack
 
-Built with [Awesome-CV](https://github.com/posquit0/Awesome-CV) — a clean LaTeX template using XeLaTeX, Roboto, and FontAwesome. Color theme: teal-green for the industry resume, dark-red for the research variants.
+Built with [Awesome-CV](https://github.com/posquit0/Awesome-CV) — a clean LaTeX template using XeLaTeX, Roboto, and Font Awesome 5. Color theme: teal-green for the industry resume, dark-red for the research variants.

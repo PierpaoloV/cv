@@ -73,8 +73,12 @@
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
-% (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
+% Use the modern package because the legacy package can fail to locate fonts
+% on newer TeX Live setups.
+\RequirePackage{fontawesome5}
+\providecommand{\faGithubSquare}{\faGithub}
+\providecommand{\faLinkedinSquare}{\faLinkedin}
+\providecommand{\faXingSquare}{\faXing}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
