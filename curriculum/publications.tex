@@ -1,0 +1,86 @@
+% Publications use a paragraph layout rather than the tabular cventry layout so
+% that long citations can break naturally across pages in this exhaustive CV.
+\newcommand{\canonicalpublication}[5]{%
+  \Needspace{5\baselineskip}%
+  \begingroup\color{black}
+  \begin{sloppypar}
+  \noindent\textbf{#1}\par
+  {\small #2. \emph{#3}, #4.\par}
+  {\small #5\par}
+  \end{sloppypar}
+  \endgroup\vspace{1.5mm}
+}
+
+\cvsection{Peer-Reviewed Publications and Proceedings}
+
+\canonicalpublication
+  {Artificial intelligence and radiologists in pancreatic cancer detection using standard-of-care CT scans (PANORAMA): an international, paired, non-inferiority, confirmatory, observational study}
+  {Alves N, Schuurmans M, Rutkowski D, Saha A, \textbf{Vendittelli P}, et al}
+  {The Lancet Oncology}
+  {Nov. 2025}
+  {\href{https://doi.org/10.1016/S1470-2045(25)00567-4}{doi:10.1016/S1470-2045(25)00567-4}.}
+
+\canonicalpublication
+  {End-to-end prognostication in pancreatic cancer by multimodal deep learning: a retrospective, multicenter study}
+  {Schuurmans M, Saha A, Alves N, \textbf{Vendittelli P}, Yakar D, Sabroso-Lasa S, Xue N, Malats N, Huisman H, Hermans J, Litjens G}
+  {European Radiology}
+  {2025}
+  {\href{https://pubmed.ncbi.nlm.nih.gov/40410330/}{PubMed 40410330}.}
+
+\canonicalpublication
+  {Navigating the landscape of multimodal AI in medicine: a scoping review on technical challenges and clinical applications}
+  {Schouten D, Nicoletti G, Dille B, Chia C, \textbf{Vendittelli P}, Schuurmans M, Litjens G, Khalili N}
+  {Medical Image Analysis, 105:103621}
+  {Oct. 2025}
+  {\href{https://doi.org/10.1016/j.media.2025.103621}{doi:10.1016/j.media.2025.103621}; earlier preprint \href{https://arxiv.org/abs/2411.03782}{arXiv:2411.03782}.}
+
+\canonicalpublication
+  {Automatic quantification of tumor-stroma ratio as a prognostic biomarker for pancreatic cancer}
+  {\textbf{Vendittelli P}, Bokhorst J-M, Smeets EMM, Kryklyva V, Brosens LAA, Verbeke C, Litjens G}
+  {PLOS ONE, 19(5):e0301969}
+  {May 2024}
+  {\href{https://doi.org/10.1371/journal.pone.0301969}{doi:10.1371/journal.pone.0301969}. First and corresponding author; conceptualisation, methodology, software, validation, visualisation, original draft, submission, revisions, and reviewer response.}
+
+\canonicalpublication
+  {Artificial Intelligence in Pancreatic Ductal Adenocarcinoma Imaging: A Commentary on Potential Future Applications}
+  {Schuurmans M, Alves N, \textbf{Vendittelli P}, Huisman H, Hermans J}
+  {Gastroenterology, 165(2):309--316}
+  {Aug. 2023}
+  {\href{https://doi.org/10.1053/j.gastro.2023.04.003}{doi:10.1053/j.gastro.2023.04.003}.}
+
+\canonicalpublication
+  {Setting the Research Agenda for Clinical Artificial Intelligence in Pancreatic Adenocarcinoma Imaging}
+  {Schuurmans M, Alves N, \textbf{Vendittelli P}, Huisman H, Hermans J}
+  {Cancers, 14(14):3498}
+  {Jul. 2022}
+  {\href{https://doi.org/10.3390/cancers14143498}{doi:10.3390/cancers14143498}.}
+
+\canonicalpublication
+  {Automatic tumour segmentation in H\&E-stained whole-slide images of the pancreas}
+  {\textbf{Vendittelli P}, Smeets EMM, Litjens G}
+  {SPIE Medical Imaging Proceedings, 12039:120391F}
+  {Apr. 2022}
+  {\href{https://doi.org/10.1117/12.2611542}{doi:10.1117/12.2611542}; \href{https://arxiv.org/abs/2112.01533}{arXiv:2112.01533}. First author.}
+
+\canonicalpublication
+  {Automatic quantification of TSR as a prognostic marker for pancreatic cancer}
+  {\textbf{Vendittelli P}, Bokhorst J-M, Smeets EMM, Kryklyva V, Brosens LAA, Verbeke C, Litjens G}
+  {Medical Imaging with Deep Learning (MIDL)}
+  {Sep. 2023}
+  {\href{https://openreview.net/pdf?id=Dtz_iaUpGc}{Conference extended abstract and poster}. First author.}
+
+\cvsection{Additional Research Outputs}
+
+\canonicalpublication
+  {Combining AI-based Biomarkers for PDAC Survival}
+  {Hensens L, Sabroso-Lasa S, Verbeke C, Malats N, Litjens G, \textbf{Vendittelli P}}
+  {COMPAYL Workshop, MICCAI}
+  {Sep. 2025}
+  {Workshop contribution and poster on multi-biomarker survival modelling. Pierpaolo wrote the paper from the associated Master's thesis, handled submission/revisions, and presented the poster.}
+
+\canonicalpublication
+  {Comparing feature extractors for pancreatic-cancer survival from digitized histopathology}
+  {\textbf{Vendittelli P} and collaborators}
+  {PhD dissertation chapter / manuscript-stage research}
+  {2025--2026}
+  {Submission-ready but not yet submitted. Attention-based survival modelling comparing UNI foundation-model features with specialist multi-tissue representations across internal and external cohorts; Pierpaolo is planned first and corresponding author.}
