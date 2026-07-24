@@ -1,0 +1,82 @@
+\cvsection{Research Programs and Technical Contributions}
+
+\begin{cventries}
+\cventry
+  {Prinses Maxima Centre for Pediatric Oncology}
+  {Automated Anaplasia Classification in Wilms Tumour}
+  {2025 -- Present}
+  {Pediatric Oncology}
+  {
+    \begin{cvitems}
+      \item {Designed a weakly supervised WSI pipeline combining Virchow2 foundation-model features, multiple-instance learning, patient-level cross-validation, and slide-level attention maps.}
+      \item {Best internal configuration achieved mean AUC 0.871 $\pm$ 0.055; external French-cohort AUC was 0.923 (95\% CI 0.883--0.962).}
+      \item {Wrote the manuscript methods and generated all figures, tables, and attention maps; manuscript is in preparation and authorship/journal selection remain unresolved.}
+    \end{cvitems}
+  }
+
+\cventry
+  {Prinses Maxima Centre for Pediatric Oncology}
+  {Automated Lymph-Node Detection and Metastasis Classification in Wilms Tumour}
+  {2025 -- Present}
+  {Pediatric Oncology}
+  {
+    \begin{cvitems}
+      \item {Conceived and implemented a two-stage detection-then-classification pipeline for post-chemotherapy Wilms tumour specimens.}
+      \item {The Virchow2-feature detector achieved 122/122 node recall, zero merged nodes, and micro Dice 0.890; the fully automatic positive-versus-negative classifier reached AUROC 0.904.}
+      \item {External French-cohort labels are pending; this is ongoing work and the manuscript has not yet been drafted.}
+    \end{cvitems}
+  }
+
+\cventry
+  {Radboud University Medical Center}
+  {Automatic Tumor Segmentation in Pancreatic Whole-Slide Images}
+  {2021 -- 2022}
+  {PhD Research}
+  {
+    \begin{cvitems}
+      \item {Built patch-based single-task and multi-task CNN pipelines for coarse PDAC tumor localization from H\&E slides.}
+      \item {The auxiliary classification branch reduced false positives; the best multi-task configuration achieved median Dice 0.934 on the study cohort.}
+      \item {Established the tumor-localization stage used by downstream tissue and biomarker analyses.}
+    \end{cvitems}
+  }
+
+\cventry
+  {Radboud University Medical Center}
+  {Automatic Tumor-Stroma-Ratio Quantification}
+  {2021 -- 2024}
+  {PhD Research}
+  {
+    \begin{cvitems}
+      \item {Developed a multi-stage WSI system combining tumor-bulk and epithelium segmentation with IHC-guided supervision to quantify interpretable tissue biomarkers.}
+      \item {Evaluated 368 patients across four datasets involving material from 25 Dutch laboratories; obtained median external Dice of 0.75 for tumor epithelium and 0.86 for tumor bulk.}
+      \item {Demonstrated reproducible prognostic value for automatically computed TSR, including 6-month survival discrimination on an independent cohort.}
+      \item {Led conceptualisation, methodology, software, validation, visualisation, and original manuscript drafting for the PLOS ONE study.}
+    \end{cvitems}
+  }
+
+\cventry
+  {Radboud University Medical Center and PanGenEU collaborators}
+  {Multi-Biomarker and Attention-Based Survival Modeling}
+  {2024 -- 2026}
+  {PhD Research}
+  {
+    \begin{cvitems}
+      \item {Integrated tumor-stroma ratio, mitosis density, stromal cell density, and tumor-to-tissue ratio in multivariate PDAC survival analyses.}
+      \item {Designed an attention-based survival pipeline agnostic to the feature extractor and compared UNI foundation-model representations with specialist multi-tissue features.}
+      \item {Evaluated regression and Cox proportional-hazards objectives across RUMC, TCGA-PAAD, CPTAC-PDA, and the external PanGenEU cohort.}
+      \item {Observed stronger UNI performance internally and better specialist-feature generalisation externally, highlighting domain shift, cohort size, and pretraining-overlap risks.}
+    \end{cvitems}
+  }
+
+\cventry
+  {PANCAIM consortium collaborations}
+  {Multimodal Clinical AI for Pancreatic Cancer}
+  {2021 -- 2025}
+  {International Multi-Center Research}
+  {
+    \begin{cvitems}
+      \item {Contributed to multimodal prognostication combining CT imaging and clinical data and to an international paired non-inferiority study of AI and radiologists for pancreatic-cancer detection.}
+      \item {Co-authored reviews and perspective work on clinical AI research priorities, multimodal fusion, implementation challenges, and translational evaluation.}
+    \end{cvitems}
+  }
+\end{cventries}

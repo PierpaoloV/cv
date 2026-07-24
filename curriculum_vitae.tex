@@ -1,0 +1,51 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% Canonical long-form CV. This document is intentionally exhaustive and is the
+% source from which role-specific resumes should be derived.
+
+\documentclass[11pt, a4paper]{awesome-cv}
+\usepackage{multicol}
+\usepackage{needspace}
+\geometry{left=1.35cm, top=0.9cm, right=1.35cm, bottom=1.7cm, footskip=.5cm}
+
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{false}
+\renewcommand{\acvHeaderSocialSep}{\enskip\textbar\enskip}
+
+\name{Pierpaolo}{Vendittelli}
+\position{PhD in Artificial Intelligence{\enskip\cdotp\enskip}Applied AI Researcher{\enskip\cdotp\enskip}Machine Learning Engineer}
+\mobile{(+39) 371 198 8078}
+\email{pierpaolo.vendittelli93@gmail.com}
+\homepage{pierpaolov.github.io}
+\github{PierpaoloV}
+\linkedin{pierpaolo-vendittelli}
+\address{Italian citizen based in the Netherlands}
+\googlescholar{C0h0smwAAAAJ}{Google Scholar}
+\extrainfo{\href{https://orcid.org/0000-0001-6712-3708}{ORCID}}
+
+\begin{document}
+
+\makecvheader[C]
+\makecvfooter
+  {\today}
+  {Pierpaolo Vendittelli~~~·~~~Complete Curriculum Vitae}
+  {\thepage}
+
+\input{curriculum/profile.tex}
+\input{curriculum/experience.tex}
+\input{curriculum/research.tex}
+\input{curriculum/education.tex}
+\input{curriculum/coursework.tex}
+\input{curriculum/teaching.tex}
+\input{curriculum/publications.tex}
+\input{curriculum/presentations.tex}
+\input{curriculum/projects.tex}
+\input{curriculum/honors.tex}
+\input{curriculum/skills.tex}
+\input{curriculum/certifications.tex}
+\input{curriculum/service.tex}
+\input{curriculum/languages_interests.tex}
+
+\end{document}
